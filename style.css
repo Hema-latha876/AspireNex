@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(bg1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+
+
+}
+.navbar ul li:hover{
+	transform:scale(1.3);
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: blue;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+	
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h1:hover{
+	transform:scale(1.3);
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+	
+
+}
+.center h2:hover{
+transform: scale(1.3);
+
+}
+.container h2{
+	color: red;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+	background-color:black ;
+
+}
+.container h2:hover{
+	transform: scale(1.3);
+}
+.container p{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 20px;
+}
+.container img{
+	height: 100px;
+	width:100px;
+	margin-top: 20px;
+}
+.container h4{
+	margin-top: 10px;
+	color: blue;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 20%;
+	text-align:center;
+}
+.container video
+{
+	align-items: center;
+	height: 250px;
+	width: 250px;
+	margin-left: 60px;
+	padding-left: 20%;
+}
+.container video:hover{
+transform: scale(1.3);
+}
+.container h3{
+
+	margin-top: 10px;
+	color: blue;
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 20%;
+	text-align: center;
+}
+.container li{
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
